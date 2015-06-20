@@ -1,0 +1,16 @@
+
+// Main Sass Import File
+
+//Mixins and Helpers
+@import 'lib/_imports';
+
+// Global Styling
+@import 'global/global';
+@import 'global/layout';
+
+// Component Styling
+@import 'components/header';
+@import 'components/footer';
+@import 'components/messages';
+@import 'components/message_form';
+@import 'components/notifications';

@@ -1,0 +1,31 @@
+{
+  "name": "frizzlechat",
+  "version": "1.0.0",
+  "description": "playing with socket.io and reactjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jesse frye",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "fs": "0.0.2",
+    "jquery": "^2.1.4",
+    "nodemon": "^1.3.7",
+    "path": "^0.11.14",
+    "react": "^0.13.3",
+    "react-jsx": "^0.13.0",
+    "socket.io": "^1.3.5",
+    "ws": "^0.7.2"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.1",
+    "envify": "^3.4.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-react": "^0.12.2",
+    "grunt-sass": "^1.0.0"
+  }
+}

@@ -1,0 +1,129 @@
+
+// TODO: get color theory algorithms
+// http://colormonster.io/
+
+// - text-color
+// - background-color
+// - accent-color
+// - border-color
+// - gradient-start-color/gradient-end-color
+// - primary-action-color
+// - secondary-action-color
+// - disabled-action-color
+
+
+$primary-color: #00539F !default;
+$primary-offset: #ecf0f1 !default;
+
+$primary-complement: complement($primary-color);
+$primary-inverted: invert($primary-color);
+$primary-grayscale: grayscale($primary-color);
+
+$primary-light: lighten($primary-color, 10%);
+$primary-lighter: lighten($primary-color, 20%);
+$primary-lightest: lighten($primary-color, 30%);
+
+$primary-dark: darken($primary-color, 10%);
+$primary-darker: darken($primary-color, 20%);
+$primary-darkest: darken($primary-color, 30%);
+
+$primary-hue-ten: adjust-hue($primary-color, 10);
+$primary-hue-fifty: adjust-hue($primary-color, 50);
+$primary-hue-hundred: adjust-hue($primary-color, 100);
+
+$primary-saturate: saturate($primary-color, 50%);
+$primary-desaturate: desaturate($primary-color, 50%);
+
+
+// Default Color Variables
+
+// base styles (body)
+$background-color:    		#efefef !default;
+$body-color:          			#4D4E53 !default;
+
+// white gradient
+$white-start: 				#ececed !default;
+$white-end: 				#dfdfe0 !default;
+
+//gray gradient
+$gray-start: 					#fefefe !default;
+$gray-end: 					#e7e7e7 !default;
+
+// color range
+$white:               				#ffffff !default;
+$black:               				#111111 !default;
+$medium-gray: 				#828789 !default;
+$dark-gray: 					#41444c !default;
+$light-gray: 					#dddddd !default;
+
+// links
+$link-color:          			#306897 !default;
+$link-hover:         			#369 !default;
+$link-active:         			#036 !default;
+$tap-highlight: 				transparent !default;
+
+// alerts
+$info-color:         			#7ac143 !default;
+$alert-color:        			#e67e22 !default;
+$error-color:		       	#B21A1A !default;
+$error-background:			#F8E8E8 !default;
+$warning-color:   			#FF971E !default;
+$warning-background:		#F7E2CB !default;
+$success-color:   			#468847 !default;
+$success-background:		#E2F8E3 !default;
+
+// disabled
+$disabled-color:      			#999 !default;
+$disabled-text:       			#666 !default;
+$disabled-background: 		#ECECED !default;
+$disabled-border:     		#CCCCCC !default;
+
+// colors
+$yellow:              			#f1c40f !default;
+$orange:             			#e67e22 !default;
+$red:                 				#991b1f !default;
+$dark-red: 					#923333 !default;
+$pink:                				#f02475 !default;
+$purple:              			#9b59b6 !default;
+$charcoal:            			#4D4E53 !default;
+$asphalt:             			#34495e !default;
+$blue:                				#3498db !default;
+$blue-alt: 					#00539F !default;
+$turquoise:           			#1abc9c !default;
+$green:               			#228442 !default;
+$clouds: 					#ecf0f1 !default;
+$red : 						#C13832 !default;
+$pomegranate : 				#C0392B !default;
+$belize: 						#2980b9 !default;
+$emerald : 					#2ecc71 !default;
+$sunflower: 					#f1c40f !default;
+
+//  brand colors
+$android-green: 			#b3c833 !default;
+$windows-purple: 			#9B4F96 !default;
+$apple-button: 				#181818 !default;
+$firefox-orange: 			#E66000 !default;
+$twitter:             				#00ABF0 !default;
+$facebook:            			#3A5898 !default;
+$tumblr:              			#44546B !default;
+$linkedin:            			#007AB8 !default;
+$pinterest:           			#CD1D1F !default;
+$googleplus:          			#DE492F !default;
+$gmail:               				#E54C3B !default;
+$rss:                 				#FF7F00 !default;
+$youtube:             			#CD332D !default;
+$github:              			#171516 !default;
+$stackoverflow:       			#FF7312 !default;
+$instagram:           			#231F20 !default;
+$flickr:              				#FF0083 !default;
+$foursquare:          			#0A9ACF !default;
+$dribbble:            			#ea4c89 !default;
+$dropbox:             			#007FE1 !default;
+$trello:              				#3493CA !default;
+$skype:               			#009FE3 !default;
+
+
+
+
+
+//

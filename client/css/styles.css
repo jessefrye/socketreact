@@ -1,0 +1,304 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, button,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-size: 1px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  vertical-align: baseline; }
+  html > *, body > *, div > *, span > *, applet > *, object > *, iframe > *,
+  h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *, p > *, blockquote > *, pre > *,
+  a > *, abbr > *, acronym > *, address > *, big > *, cite > *, code > *,
+  del > *, dfn > *, em > *, img > *, ins > *, kbd > *, q > *, s > *, samp > *,
+  small > *, strike > *, strong > *, sub > *, sup > *, tt > *, var > *,
+  b > *, u > *, i > *, center > *, button > *,
+  dl > *, dt > *, dd > *, ol > *, ul > *, li > *,
+  fieldset > *, form > *, label > *, legend > *,
+  table > *, caption > *, tbody > *, tfoot > *, thead > *, tr > *, th > *, td > *,
+  article > *, aside > *, canvas > *, details > *, embed > *,
+  figure > *, figcaption > *, footer > *, header > *, hgroup > *,
+  menu > *, nav > *, output > *, ruby > *, section > *, summary > *,
+  time > *, mark > *, audio > *, video > * {
+    font-size: 1em; }
+  html > a, body > a, div > a, span > a, applet > a, object > a, iframe > a,
+  h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, p > a, blockquote > a, pre > a,
+  a > a, abbr > a, acronym > a, address > a, big > a, cite > a, code > a,
+  del > a, dfn > a, em > a, img > a, ins > a, kbd > a, q > a, s > a, samp > a,
+  small > a, strike > a, strong > a, sub > a, sup > a, tt > a, var > a,
+  b > a, u > a, i > a, center > a, button > a,
+  dl > a, dt > a, dd > a, ol > a, ul > a, li > a,
+  fieldset > a, form > a, label > a, legend > a,
+  table > a, caption > a, tbody > a, tfoot > a, thead > a, tr > a, th > a, td > a,
+  article > a, aside > a, canvas > a, details > a, embed > a,
+  figure > a, figcaption > a, footer > a, header > a, hgroup > a,
+  menu > a, nav > a, output > a, ruby > a, section > a, summary > a,
+  time > a, mark > a, audio > a, video > a {
+    font-size: 1em; }
+  html > span, body > span, div > span, span > span, applet > span, object > span, iframe > span,
+  h1 > span, h2 > span, h3 > span, h4 > span, h5 > span, h6 > span, p > span, blockquote > span, pre > span,
+  a > span, abbr > span, acronym > span, address > span, big > span, cite > span, code > span,
+  del > span, dfn > span, em > span, img > span, ins > span, kbd > span, q > span, s > span, samp > span,
+  small > span, strike > span, strong > span, sub > span, sup > span, tt > span, var > span,
+  b > span, u > span, i > span, center > span, button > span,
+  dl > span, dt > span, dd > span, ol > span, ul > span, li > span,
+  fieldset > span, form > span, label > span, legend > span,
+  table > span, caption > span, tbody > span, tfoot > span, thead > span, tr > span, th > span, td > span,
+  article > span, aside > span, canvas > span, details > span, embed > span,
+  figure > span, figcaption > span, footer > span, header > span, hgroup > span,
+  menu > span, nav > span, output > span, ruby > span, section > span, summary > span,
+  time > span, mark > span, audio > span, video > span {
+    font-size: 1em; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight: transparent;
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+  *:before, *:after, *:before:before, *:before:after, *:after:before, *:after:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+html {
+  -ms-touch-select: none;
+  -ms-touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: "none";
+  -moz-user-select: "none";
+  -ms-user-select: "none";
+  user-select: "none"; }
+
+.debug > * {
+  font-size: 16px !important; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Ubuntu, Roboto, "Droid Sans", Segoe, "Segoe UI", sans-serif;
+  font-weight: 300;
+  font-size: 1px;
+  line-height: 1;
+  background: #f3f3f3;
+  color: #4D4E53;
+  position: relative;
+  word-wrap: break-word; }
+
+input, textarea {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Ubuntu, Roboto, "Droid Sans", Segoe, "Segoe UI", sans-serif;
+  font-weight: 300; }
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-weight: 300; }
+  input:-moz-placeholder, textarea:-moz-placeholder {
+    font-weight: 300; }
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    font-weight: 300; }
+  input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    font-weight: 300; }
+
+.inner-container {
+  width: 96%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (min-width: 500px) {
+    .inner-container {
+      width: 90%; } }
+  @media screen and (min-width: 700px) {
+    .inner-container {
+      width: 70%; } }
+
+.main-column,
+.layout-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.messages-container,
+.main-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.message-list,
+.messages-container {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+header.banner {
+  background: #FF0083;
+  padding: 5em; }
+  header.banner h1 {
+    font-size: 18em;
+    color: #ecf0f1;
+    text-align: center; }
+  header.banner img {
+    height: 3em;
+    width: auto; }
+
+footer.footer {
+  background: #4D4E53;
+  padding: 5em 0; }
+  footer.footer p {
+    font-size: 14em;
+    color: #ffffff;
+    text-align: center; }
+
+.messages-container {
+  overflow: hidden; }
+
+.message-list {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
+  .message-list::-webkit-scrollbar {
+    width: 5px; }
+  .message-list::-webkit-scrollbar-thumb {
+    background: #ddd; }
+
+.message {
+  cursor: default;
+  margin-bottom: 10em; }
+  .message:first-child {
+    margin-top: 10em; }
+  .message h5 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16em; }
+  .message p {
+    font-size: 14em;
+    line-height: 1.2; }
+
+.message-block {
+  display: inline-block;
+  position: relative;
+  background: #0059CF;
+  color: #ecf0f1;
+  padding: 7em 15em;
+  max-width: 50%;
+  -webkit-border-radius: 20em;
+  border-radius: 20em; }
+  .message-block:after {
+    content: '◀';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    font-size: 16px;
+    margin-left: -.35em;
+    margin-bottom: -.25em;
+    color: #0059CF;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+
+.author {
+  text-align: right; }
+  .author .message-block {
+    background: #A00CC8; }
+    .author .message-block:after {
+      content: '▶';
+      left: auto;
+      right: 0;
+      margin-right: -.25em;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      transform: rotate(45deg);
+      color: #A00CC8; }
+
+.message-form {
+  position: relative; }
+  .message-form textarea, .message-form input {
+    width: 100%;
+    background: #eee;
+    font-size: 16em;
+    border: 0;
+    padding: 1em 0.5em;
+    color: #A00CC8; }
+    .message-form textarea::-webkit-input-placeholder, .message-form input::-webkit-input-placeholder {
+      color: #FF0083;
+      font-weight: 300; }
+    .message-form textarea:-moz-placeholder, .message-form input:-moz-placeholder {
+      color: #FF0083;
+      font-weight: 300; }
+    .message-form textarea::-moz-placeholder, .message-form input::-moz-placeholder {
+      color: #FF0083;
+      font-weight: 300; }
+    .message-form textarea:-ms-input-placeholder, .message-form input:-ms-input-placeholder {
+      color: #FF0083;
+      font-weight: 300; }
+  .message-form > input {
+    border-top: 1px solid #FF0083;
+    position: absolute;
+    top: -100%;
+    -webkit-transition: .33s all;
+    -moz-transition: .33s all;
+    transition: .33s all; }
+  .message-form button {
+    background-color: #FF0083;
+    background-image: url("../images/icon-checkmark-white.png");
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    min-width: 40em;
+    height: 100%; }
+
+.message-form-container {
+  position: relative;
+  min-height: 52px; }
+
+.message-submit {
+  display: table;
+  width: 100%;
+  border-top: 1px solid #FF0083; }
+  .message-submit > div {
+    display: table-cell;
+    vertical-align: top; }
+
+.typing {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+.author span {
+  font-size: 16em;
+  color: #999; }
+
+/*# sourceMappingURL=styles.css.map */

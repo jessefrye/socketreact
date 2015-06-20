@@ -1,0 +1,50 @@
+
+.message-form {
+	position:relative;
+	textarea, input {
+		width: 100%;
+		background: #eee;
+		font-size: 16em;
+		border: 0;
+		padding: 1em .5em;
+		color: #A00CC8;
+		@include placeholder() {
+			color: $flickr;
+			font-weight: 300;
+		}
+	}
+	> input {
+		border-top: 1px solid $flickr;
+		position:absolute;
+		top: -100%;
+		-webkit-transition: .33s all;
+		-moz-transition: .33s all;
+		transition: .33s all;
+	}
+	button {
+		background-color: $flickr;
+		background-image: url('../images/icon-checkmark-white.png');
+		background-size: auto 50%;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		width: 100%;
+		min-width: 40em;
+		height: 100%;
+	}
+}
+
+.message-form-container {
+	position: relative;
+	min-height: 52px;
+}
+
+.message-submit {
+	display: table;
+	width: 100%;
+	border-top: 1px solid $flickr;
+	> div {
+		display: table-cell;
+		vertical-align:top;
+	}
+
+}

@@ -1,0 +1,41 @@
+//Other Mixins
+
+// FTW Version
+@mixin border-box-ftw {
+    @include prefixer(box-sizing, border-box, webkit moz spec);
+    &:before, &:after {
+        @include prefixer(box-sizing, border-box, webkit moz spec);
+    }
+}
+
+// Text Size Adjustment
+@mixin text-size-adjust($arg: 100%) {
+	@include prefixer(text-size-adjust, $arg, webkit moz ms spec);
+}
+
+//    Tap Highlight
+// transparent | rgba(0,0,0,1) | #7777777
+
+@mixin tap-highlight($arg: transparent) {
+
+	@if $arg == "transparent" {
+		@include prefixer(tap-highlight, rgba(255,255,255,0), webkit);
+		@include prefixer(tap-highlight, transparent, webkit);
+	}
+	@else {
+		@include prefixer(tap-highlight, $arg, webkit);
+	}
+
+}
+
+// Touch Call out
+@mixin touch-callout($arg: none) {
+	-ms-touch-select:   none;
+	-ms-touch-action:   none;
+	-webkit-touch-callout: none;
+}
+
+// User Select
+@mixin user-select($arg: none) {
+  @include prefixer(user-select, $arg, webkit moz ms spec);
+}

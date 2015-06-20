@@ -1,0 +1,14 @@
+
+header.banner {
+	background: $flickr;
+	padding: 5em;
+	h1 {
+		font-size: 18em;
+		color: $primary-offset;
+		text-align: center;
+	}
+	img {
+		height: 3em;
+		width: auto;
+	}
+}
